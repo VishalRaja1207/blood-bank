@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<style>
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.sidepanel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e1e2d;
+}
+
+li {
+  font-size: small;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1e1e2d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  width: 20%;
+}
+
+.sidepanel a {
+  padding: 6% 10%;
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  margin-left: 20%;
+  font-size: 100%;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+  
+}
+
+</style>
+</head>
+<body>
+<div id="mySidepanel" class="sidepanel">
+  <h1 style="padding:11%; color: #f1f1f1;">BBS</h1>
+  <ul>
+    <li><a href="addNewDonor.jsp">New Donor</a></li>
+    <li><a href="editDeleteList.jsp">Manage Donor</a></li>
+    <li><a href="manageStock.jsp">Manage Stock</a></li>
+    <li><a href="requestForBlood.jsp">Request for Blood</a></li>
+    <li><a href="requestCompleted.jsp">Request Completed</a></li>
+    <li><a href="adminLogin.jsp">Logout</a></li>
+  </ul>
+</div>
+
+
+</body>
+</html>
