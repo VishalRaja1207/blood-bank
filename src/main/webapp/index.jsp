@@ -44,9 +44,7 @@ function carousel() {
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
-
-
-<body>
+
   <br>  
   	
  	<%
@@ -80,7 +78,7 @@ function carousel() {
   <br>
   </div>
 </div>
-<h3><center>2023 © Influence - Designed by Vishal</center></h3>
+<h3><center>2023 Â© Influence - Designed by Vishal</center></h3>
 
 </body>
 </html>
